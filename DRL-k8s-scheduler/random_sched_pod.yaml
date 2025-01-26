@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: random-sched
+spec:
+  containers:
+  - name: random-sched
+    image: rl_sched
+    imagePullPolicy: IfNotPresent
+
